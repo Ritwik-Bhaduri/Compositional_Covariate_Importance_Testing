@@ -1,0 +1,1 @@
+k=600 iterations done out of 600
