@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 # Simulation Workflow Instructions
 
 This document provides instructions for running simulations in a SLURM-enabled environment. SLURM is required to execute the following commands as they use job scheduling and parallelization features. For users without SLURM, an alternative approach using standard R scripts or shell loops is outlined at the end of this document.
