@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Simulation Workflow Instructions
 
 This document provides instructions for running simulations in a SLURM-enabled environment. SLURM is required to execute the following commands as they use job scheduling and parallelization features. For users without SLURM, an alternative approach using standard R scripts or shell loops is outlined at the end of this document.
@@ -268,6 +273,20 @@ This document provides instructions for running simulations in a SLURM-enabled e
 3. Compile results:
    ```bash
    Rscript compile_result_presentation.R
+   ```
+
+### Real data analysis
+**Data sources:**
+- Paper: [Biostatistics Supplementary Data](https://academic.oup.com/biostatistics/article/22/4/687/5689688#supplementary-data)  
+- Data: [HMP dataset on GitHub](https://github.com/diegotomassi/sdr4comp/tree/master/data/HMP)
+
+1. Navigate to `run127`:
+   ```bash
+   cd run127
+   ```
+2. Run:
+   ```bash
+   Rscript Run.R
    ```
 
 ---
